@@ -1,10 +1,10 @@
 /* core */
 :root {
   /* Add these styles to your global stylesheet, which is used across all site pages. You only need to do this once. All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
-  --primary: #ff6a3e;
-  --primaryLight: #ffba43;
-  --secondary: #ffba43;
-  --secondaryLight: #ffba43;
+  --primary: #7ae831;
+  --primaryLight: #a1ff43;
+  --secondary: #85ff43;
+  --secondaryLight: #66ff43;
   --headerColor: #1a1a1a;
   --bodyTextColor: #4e4b66;
   --bodyTextColorWhite: #fafbfc;
@@ -112,9 +112,9 @@ background-color: #000;
 /* Mobile */
 @media only screen and (min-width: 0rem) {
   :root {
-    --dark: #082032;
+    --dark: #000000;
     --medium: #2c394b;
-    --accent: #334756;
+    --accent: #121f2d;
     --bodyTextColorWhite: #fafbfc;
   }
   body.dark-mode {
@@ -1538,7 +1538,7 @@ background-color: #000;
       background-color: #1a1a1a;
   }
   #pricing-1087 .cs-item.cs-popular:before {
-      content: "Popular";
+      content: "REGULAR";
       text-transform: uppercase;
       font-size: 0.8125rem;
       font-weight: 700;
